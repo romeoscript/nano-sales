@@ -10,7 +10,9 @@
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
   />
+  
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
  <header>
@@ -154,7 +156,32 @@
         </div>
     </div>
   </section>
-
+<!-- portfolio -->
+<section class="portfolio">
+    <div class="rating">
+        <i class="fa fa-star-o" aria-hidden="true"></i> <span>Rating</span> <br>
+       <aside class="rating__images">
+        <img src="./assets/images/people.png" alt=""> <span>+836k Members</span>
+       </aside>
+        <p>More than 2 billion we people over countries use socibooks we to stay in touch with friends.</p>
+        <a href="">Get in touch <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+    </div>
+    <!-- portfolioslider -->
+    <div class="swiper mainSwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">Slide 1</div>
+          <div class="swiper-slide">Slide 2</div>
+          <div class="swiper-slide">Slide 3</div>
+          <div class="swiper-slide">Slide 4</div>
+          <div class="swiper-slide">Slide 5</div>
+          <div class="swiper-slide">Slide 6</div>
+          <div class="swiper-slide">Slide 7</div>
+          <div class="swiper-slide">Slide 8</div>
+          <div class="swiper-slide">Slide 9</div>
+        </div>
+      </div>
+      <!-- portfolioslider -->
+</section>
   <!-- footer -->
 <section class="footer">
 <div class="footer__grid">
@@ -222,5 +249,15 @@
       },
     });
   </script>
+   <!-- Swiper JS -->
+   <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+   <!-- Initialize Swiper -->
+   <script>
+     var swiper = new Swiper(".mainSwiper", {
+       effect: "cards",
+       grabCursor: true,
+     });
+   </script>
 </body>
 </html>
