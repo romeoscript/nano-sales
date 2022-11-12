@@ -177,6 +177,9 @@ body {
   -webkit-animation: bounce-in-top 2.5s infinite both;
   animation: bounce-in-top 2.5s infinite both;
 }
+.slider__item h1{
+  font-size: 44px;
+}
 @-webkit-keyframes bounce-in-top {
   0% {
     -webkit-transform: translateY(-500px);
@@ -890,7 +893,9 @@ section.services {
    align-items: center;
 }
 
-
+.slider__item h1{
+  font-size:30px;
+}
   .course__card-image aside:nth-child(1) img {
     background-color: white;
   
