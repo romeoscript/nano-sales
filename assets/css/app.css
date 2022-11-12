@@ -570,13 +570,14 @@ section.services {
   max-width: 15%;
   display: block;
 }
-.footer__grid input {
+.footer__grid input,textarea {
   width: 100%;
   padding: 0.5rem;
   display: block;
   margin: 1rem 0;
   outline: none;
 }
+
 .footer__grid input[type="submit"] {
   background: steelblue;
   color: white;
